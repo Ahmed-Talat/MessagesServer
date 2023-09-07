@@ -37,6 +37,7 @@ This project uses Jest and Supertest for testing. To run the tests, use the foll
 You can configure environment-specific variables by creating a .env file in the project root. Define your variables there, and they will be automatically loaded when you run the application.
 
 Example .env file:
-
+ ```
 URL="mongodb://localhost/yourdb"
-DB_NAME="BbName"
+DB_NAME="DbName"
+ ```
